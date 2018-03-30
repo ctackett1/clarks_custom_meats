@@ -1,0 +1,136 @@
+/*
+grey: #D9D9D9
+
+
+
+*/
+
+
+
+body{
+
+font-family: 'Roboto Slab', serif;
+max-width: 100%;
+overflow-x: hidden;
+
+}
+.top_bar{
+  height: 15px;
+  background-color: grey;
+}
+
+header{
+  background-color: black;
+
+  background-image: url("img/header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #F4F0D9;
+
+}
+
+/*make the nav bar into a row*/
+nav ul {
+  display: inline-flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  width: 95%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  list-style: none;
+}
+
+.nav-bar{
+  margin: 2%;
+  margin-top: 7%;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #EAF2E3;
+  text-transform: uppercase;
+
+  border-right: solid white;
+  padding-right: 25%;
+
+
+
+
+
+
+}
+
+.fa-facebook{
+  padding-left: 50%;
+  padding-right: 50%;
+  padding-top: 35%;
+  padding-bottom: 35%;
+
+  border: solid;
+  border-radius: 30%;
+}
+
+.top_content{
+  padding-bottom: 30px;
+}
+
+
+.custom_processing_title{
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 4em;
+}
+.custom_processing_title_content{
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+.call_to_action{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.0);
+  border: 2px solid #D9D9D9;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  border-radius: 100px;
+
+  text-align: center;
+  font-size: 2em;
+}
+.call_to_action:hover{
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  text-decoration: none;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*  ##################################FOOTER#################################*/
+.footer{
+  background-color: black;
+  text-align: center;
+
+}
+.clark_logo_footer{
+margin-top: 5%;
+margin-bottom: 5%;
+}
+.copyright{
+  font-size: 10px;
+  color: white;
+    padding-bottom: 5%;
+}

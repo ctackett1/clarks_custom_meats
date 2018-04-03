@@ -11,6 +11,8 @@ body{
 
 font-family: 'Roboto Slab', serif;
 max-width: 100%;
+
+padding: 0;
 overflow-x: hidden;
 
 }
@@ -22,18 +24,20 @@ overflow-x: hidden;
 header{
   background-color: black;
 
-  background-image: url("img/header.jpg");
+  background: url("img/header.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   color: #F4F0D9;
+  height:700px;
+
 
 }
 
 /*make the nav bar into a row*/
 nav ul {
   display: inline-flex;
-  align-items: flex-end;
+  /* align-items: flex-end; */
   justify-content: space-around;
   width: 95%;
   margin: 0;
@@ -52,21 +56,44 @@ nav ul li a {
   color: #EAF2E3;
   text-transform: uppercase;
 
+}
+.nav-bar{
+
+}
+
+nav ul li{
   border-right: solid white;
-  padding-right: 25%;
+  padding-right: 5px;
+  padding-left: 5px;
+  text-align: left;
+  text-decoration: none;
+}
 
 
-
+nav ul li:hover{
+  color: black;
+  text-decoration: none;
 
 
 
 }
 
+nav ul li a:hover{
+  text-decoration: none;
+color: brown;
+
+
+}
+
+
+
+
 .fa-facebook{
-  padding-left: 50%;
-  padding-right: 50%;
-  padding-top: 35%;
-  padding-bottom: 35%;
+  padding-left: 5px;
+  padding-right: 6px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-right: 2%;
 
   border: solid;
   border-radius: 30%;
